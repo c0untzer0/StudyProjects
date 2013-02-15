@@ -10,6 +10,34 @@
 		8D87B0CF16CEC15A0009C2FF /* guessing.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = guessing.py; sourceTree = "<group>"; };
 		8D87B0D116CEC7870009C2FF /* leapyear.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = leapyear.py; sourceTree = "<group>"; };
 		8D87B0D216CEE1650009C2FF /* interestcalc.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = interestcalc.py; sourceTree = "<group>"; };
+		8D87B0D316CEFBED0009C2FF /* check_string.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = check_string.py; sourceTree = "<group>"; };
+		8D87B0D416CEFC220009C2FF /* word_list.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = word_list.py; sourceTree = "<group>"; };
+		8D87B0D516CEFC490009C2FF /* three_params.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = three_params.py; sourceTree = "<group>"; };
+		8D87B0D616CEFC6F0009C2FF /* secret_code.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = secret_code.py; sourceTree = "<group>"; };
+		8D87B0D716CEFC8C0009C2FF /* para_breaker.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = para_breaker.py; sourceTree = "<group>"; };
+		8D87B0D816CEFCAD0009C2FF /* multuple.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = multuple.py; sourceTree = "<group>"; };
+		8D87B0D916CEFCDC0009C2FF /* argument_list.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = argument_list.py; sourceTree = "<group>"; };
+		8D87B0DA16CEFCF40009C2FF /* average.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = average.py; sourceTree = "<group>"; };
+		8D87B0DB16CEFD110009C2FF /* sentence_splitter.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = sentence_splitter.py; sourceTree = "<group>"; };
+		8D87B0DC16CEFD300009C2FF /* validate_input.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = validate_input.py; sourceTree = "<group>"; };
+		8D87B0DD16CEFD520009C2FF /* caching.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = caching.py; sourceTree = "<group>"; };
+		8D87B0DE16CEFD740009C2FF /* case_convert.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = case_convert.py; sourceTree = "<group>"; };
+		8D87B0DF16CEFD940009C2FF /* find_word.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = find_word.py; sourceTree = "<group>"; };
+		8D87B0E016CEFDAA0009C2FF /* formatting.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = formatting.py; sourceTree = "<group>"; };
+		8D87B0E116CEFDC10009C2FF /* funcalls.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = funcalls.py; sourceTree = "<group>"; };
+		8D87B0E216CEFDDF0009C2FF /* funcs.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = funcs.py; sourceTree = "<group>"; };
+		8D87B0E316CEFE050009C2FF /* invite.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = invite.py; sourceTree = "<group>"; };
+		8D87B0E416CEFE3B0009C2FF /* pair_frequency.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = pair_frequency.py; sourceTree = "<group>"; };
+		8D87B0E516CEFE580009C2FF /* paragraph_stats.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = paragraph_stats.py; sourceTree = "<group>"; };
+		8D87B0E616CEFE770009C2FF /* personlist.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = personlist.py; sourceTree = "<group>"; };
+		8D87B0E716CEFE9A0009C2FF /* printlist.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = printlist.py; sourceTree = "<group>"; };
+		8D87B0E816CEFEBF0009C2FF /* sentence_splitter2.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = sentence_splitter2.py; sourceTree = "<group>"; };
+		8D87B0E916CEFED20009C2FF /* space_finder.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = space_finder.py; sourceTree = "<group>"; };
+		8D87B0EA16CEFEE60009C2FF /* todo.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = todo.py; sourceTree = "<group>"; };
+		8D87B0EB16CEFEFB0009C2FF /* vowel_counter.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = vowel_counter.py; sourceTree = "<group>"; };
+		8D87B0EC16CEFF170009C2FF /* word_counter.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = word_counter.py; sourceTree = "<group>"; };
+		8D87B0ED16CEFF320009C2FF /* word_frequency.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = word_frequency.py; sourceTree = "<group>"; };
+		8D87B0EE16CEFF520009C2FF /* word_matcher.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = word_matcher.py; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -19,6 +47,34 @@
 				8D87B0CF16CEC15A0009C2FF /* guessing.py */,
 				8D87B0D116CEC7870009C2FF /* leapyear.py */,
 				8D87B0D216CEE1650009C2FF /* interestcalc.py */,
+				8D87B0D316CEFBED0009C2FF /* check_string.py */,
+				8D87B0D416CEFC220009C2FF /* word_list.py */,
+				8D87B0D516CEFC490009C2FF /* three_params.py */,
+				8D87B0D616CEFC6F0009C2FF /* secret_code.py */,
+				8D87B0D716CEFC8C0009C2FF /* para_breaker.py */,
+				8D87B0D816CEFCAD0009C2FF /* multuple.py */,
+				8D87B0D916CEFCDC0009C2FF /* argument_list.py */,
+				8D87B0DA16CEFCF40009C2FF /* average.py */,
+				8D87B0DB16CEFD110009C2FF /* sentence_splitter.py */,
+				8D87B0DC16CEFD300009C2FF /* validate_input.py */,
+				8D87B0DD16CEFD520009C2FF /* caching.py */,
+				8D87B0DE16CEFD740009C2FF /* case_convert.py */,
+				8D87B0DF16CEFD940009C2FF /* find_word.py */,
+				8D87B0E016CEFDAA0009C2FF /* formatting.py */,
+				8D87B0E116CEFDC10009C2FF /* funcalls.py */,
+				8D87B0E216CEFDDF0009C2FF /* funcs.py */,
+				8D87B0E316CEFE050009C2FF /* invite.py */,
+				8D87B0E416CEFE3B0009C2FF /* pair_frequency.py */,
+				8D87B0E516CEFE580009C2FF /* paragraph_stats.py */,
+				8D87B0E616CEFE770009C2FF /* personlist.py */,
+				8D87B0E716CEFE9A0009C2FF /* printlist.py */,
+				8D87B0E816CEFEBF0009C2FF /* sentence_splitter2.py */,
+				8D87B0E916CEFED20009C2FF /* space_finder.py */,
+				8D87B0EA16CEFEE60009C2FF /* todo.py */,
+				8D87B0EB16CEFEFB0009C2FF /* vowel_counter.py */,
+				8D87B0EC16CEFF170009C2FF /* word_counter.py */,
+				8D87B0ED16CEFF320009C2FF /* word_frequency.py */,
+				8D87B0EE16CEFF520009C2FF /* word_matcher.py */,
 			);
 			sourceTree = "<group>";
 		};
