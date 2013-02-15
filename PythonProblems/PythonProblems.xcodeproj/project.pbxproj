@@ -1,0 +1,76 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		8D87B0CF16CEC15A0009C2FF /* guessing.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = guessing.py; sourceTree = "<group>"; };
+		8D87B0D116CEC7870009C2FF /* leapyear.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = leapyear.py; sourceTree = "<group>"; };
+		8D87B0D216CEE1650009C2FF /* interestcalc.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = interestcalc.py; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		8D87B0C816CEC0FB0009C2FF = {
+			isa = PBXGroup;
+			children = (
+				8D87B0CF16CEC15A0009C2FF /* guessing.py */,
+				8D87B0D116CEC7870009C2FF /* leapyear.py */,
+				8D87B0D216CEE1650009C2FF /* interestcalc.py */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		8D87B0C916CEC0FB0009C2FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+			};
+			buildConfigurationList = 8D87B0CC16CEC0FB0009C2FF /* Build configuration list for PBXProject "PythonProblems" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8D87B0C816CEC0FB0009C2FF;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		8D87B0CD16CEC0FB0009C2FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		8D87B0CE16CEC0FB0009C2FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8D87B0CC16CEC0FB0009C2FF /* Build configuration list for PBXProject "PythonProblems" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D87B0CD16CEC0FB0009C2FF /* Debug */,
+				8D87B0CE16CEC0FB0009C2FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8D87B0C916CEC0FB0009C2FF /* Project object */;
+}
