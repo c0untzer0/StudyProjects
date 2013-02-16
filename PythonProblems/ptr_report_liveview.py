@@ -19,6 +19,7 @@
 #           ZSI
 #----------------------------------------------------------------------------------------------------------------
 #<<<<< Libraries >>>>>
+
 from ZSI.client import Binding                        #Imports Binding from ZSI.Client Lib
 from ZSI.auth import AUTH                             #Imports AUTH from ZSI.auth
 from xml.etree import ElementTree                     #Imports ElementTree from xml.etree Lib
@@ -28,7 +29,6 @@ import time
 import math
 from time import time as time2
 import sys
-
 
 b = Binding(url='http://amadeus.aproach.net/aproach/services/AproachWebServices?WSDL') #Creates Object
 b.SetAuth(AUTH.httpbasic,"foo","bar") #Sets WinAproach UserId and Password
