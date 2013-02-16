@@ -14,7 +14,7 @@
 #import random
 
 #INFORMATION:
-#  Following Python Modules need to be Installed beforehand:
+#  The following Python Modules need to be Installed beforehand:
 #           pyXML
 #           ZSI
 #----------------------------------------------------------------------------------------------------------------
