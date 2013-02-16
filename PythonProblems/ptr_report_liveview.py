@@ -53,10 +53,6 @@ def getTitle(recordId):
     title=''
     ismaster='N'
     Record = b.retrieve(str(recordId))
-    #try:                                               #Tests next Instruction
-    #   Record = b.retrieve(str(recordId))              #Retrieves the Record, the result is Record Dictionary
-    #except:                                            #In case of Excpetion
-    #  return "Record Not Found"                       #Prints out Error Message
     for liNe in Record.keys():                         #Loops through the Keys in Record Dictionary
         Lines = Record[liNe]
     #print Lines+"\n"
@@ -99,14 +95,11 @@ def getTitle(recordId):
             if "MasterRecord" in eLement.attrib[attribs]:
                 ismaster=eLement.text
     
-    #buf = buf + eLement.attrib[attribs] + ': ' + eLement.text + '\n'
     if severity=="1" and type=="WO":
         severity=2
     pi=''
     pikey=''
     pistatus=''
-    #print "1"+date_entered+" "+time_entered
-    #print "2"+date_last+" "+time_last
     datetime_entered=time.strftime("%Y-%m-%d %H:%M:00",time.strptime(date_entered+" "+time_entered,"%d%b%y %H:%M"))
     datetime_last=time.strftime("%Y-%m-%d %H:%M:00",time.strptime(date_last+" "+time_last,"%d%b%y %H:%M"))
     asses=list()
@@ -124,7 +117,7 @@ def getTitle(recordId):
                 # print "PI Status:"+eLement[pikey].text
                 for item in range(len(eLement)):
                     asses.append(eLement[item].text)
-    # buf = buf + str(eLement.attrib[attribs]) + ': ' + str(eLement[0].text) + '\'
+    
     if pi:
         pistatus=asses[pikey]
         print "pi status is "+pistatus
@@ -233,16 +226,13 @@ def getTitle(recordId):
 
 def getRecordId(searchRec,name):#efines getRecordId Function using a 2 Items List with Record Type and Record Title
     recTyp,sev = searchRec.split(",")                #Splits the List into Variables recTyp and tiTle
-    #tiTle = re.sub("[/:-]"," ",tiTle)                  #Substitutes : and - with Space
+    
     mygroup='OIAOPS'
     if name=="ROBERTS":
         mygroup="OIA030"
     
-    #db.query("delete from records_ptr_tbl where owner='"+name+"' and severity='"+sev+"'")
-    searchItem = '<record type="%s" database="PRD"><select><field pword="TYPE" /></select><where><clause>((GROC/%s))</clause><clause>((PERC/%s))</clause><clause>((PRIO/%s))</clause></where></record>' % (str(recTyp).upper(),mygroup,name,sev) #Builds Up the Message to Search fori
-    #searchItem = '<record type="%s" database="PRD"><select><field pword="TYPE" /></select><where><clause>((GROC/%s))</clause><clause>((PERC/%s))</clause><clause>((PRIO/%s))</clause></where></record>' % (tiTle,mygroup,name,sev)
     
-    #print searchItem
+    searchItem = '<record type="%s" database="PRD"><select><field pword="TYPE" /></select><where><clause>((GROC/%s))</clause><clause>((PERC/%s))</clause><clause>((PRIO/%s))</clause></where></record>' % (str(recTyp).upper(),mygroup,name,sev) 
     try:                                               #Tests next Instruction
         Record = b.search(searchItem)                   #Rmeetrieves the Search Found
     #print Record
@@ -256,10 +246,7 @@ def getRecordId(searchRec,name):#efines getRecordId Function using a 2 Items Lis
     status=''
     recordNum=''
     assignee=''
-    #for eLement in doc_node.getiterator():             #Loops through the Element
-    #     if "id" in eLement.keys(): #id is one of the Element Keys then Returns the Record Nr
-    #         if eLement.attrib["id"]:
-    #             recordNum=eLement.attrib["id"]
+    
     title=''
     status=''
     recordNum=''
@@ -287,12 +274,7 @@ def getRecordId(searchRec,name):#efines getRecordId Function using a 2 Items Lis
             time_last=''
             date_last=''
 
-#db.query("select rd.recid from records_tbl as r, record_details_tbl as rd where r.recnum=rd.recid and rd.recid='"+eLement.attrib["id"]+"'")
-#r=db.store_result()
-#row=r.fetch_row()
-#if not row:
-#   getTitle(eLement.attrib["id"])
-#print eLement.attrib["id"]
+
 
 
 
@@ -306,8 +288,7 @@ def main():
             lname='G_Flores'
         print lname
         getRecordId("PTR,2",lname) #Check all open records to make sure we dont miss any open records
-        #       getRecordId("PTR,2",lname)
-        #        getRecordId("PTR,3",lname)
+        
         getRecordId("PTR,3",lname)
 #print getRecordId(["TR","TPF GC BE Software - Load Cycle 2009-44"]) #Gets the Record Number searching the Record Type + Record Title
 
