@@ -28,7 +28,7 @@ if __name__ == '__main__':
     print('{0:<30s}${1:>10.2f}'.format("Amount borrowed:",princ/100))
     print('{0:<30s}${1:>10.2f}\n'.format("Total interest paid:",(intpaid/100)))
     rembal=princ+intpaid
-    mamount=int(math.ceil(rembal/12))
+    mamount=int(math.ceil(rembal/(12*term)))
     counter=0
     
     print('{0:^10s}{1:^10s}{2:^12s}'.format(" "*6,"Amount","Remaining"))

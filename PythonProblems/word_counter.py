@@ -30,4 +30,5 @@ print(text)
 words=set(text.lower().split())
 print("There are ", len(words), " distinct words in the text.")
 
+print(list(words)[::-2])
 

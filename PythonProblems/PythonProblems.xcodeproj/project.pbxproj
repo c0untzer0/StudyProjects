@@ -39,6 +39,7 @@
 		8D87B0ED16CEFF320009C2FF /* word_frequency.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = word_frequency.py; sourceTree = "<group>"; };
 		8D87B0EE16CEFF520009C2FF /* word_matcher.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = word_matcher.py; sourceTree = "<group>"; };
 		8D87B0EF16CF02100009C2FF /* ptr_report_liveview.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = ptr_report_liveview.py; sourceTree = "<group>"; };
+		8D9CAAD616E96A2B002B9B1C /* tests.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = tests.py; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -77,6 +78,7 @@
 				8D87B0ED16CEFF320009C2FF /* word_frequency.py */,
 				8D87B0EE16CEFF520009C2FF /* word_matcher.py */,
 				8D87B0EF16CF02100009C2FF /* ptr_report_liveview.py */,
+				8D9CAAD616E96A2B002B9B1C /* tests.py */,
 			);
 			sourceTree = "<group>";
 		};
