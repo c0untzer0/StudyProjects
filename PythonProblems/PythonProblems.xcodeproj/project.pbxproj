@@ -40,6 +40,8 @@
 		8D87B0EE16CEFF520009C2FF /* word_matcher.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = word_matcher.py; sourceTree = "<group>"; };
 		8D87B0EF16CF02100009C2FF /* ptr_report_liveview.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = ptr_report_liveview.py; sourceTree = "<group>"; };
 		8D9CAAD616E96A2B002B9B1C /* tests.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = tests.py; sourceTree = "<group>"; };
+		8DBDEB4717120564002CF8C8 /* keyword_args.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = keyword_args.py; sourceTree = "<group>"; };
+		8DBDEB4817120966002CF8C8 /* courses.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = courses.py; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -79,10 +81,28 @@
 				8D87B0EE16CEFF520009C2FF /* word_matcher.py */,
 				8D87B0EF16CF02100009C2FF /* ptr_report_liveview.py */,
 				8D9CAAD616E96A2B002B9B1C /* tests.py */,
+				8DBDEB4717120564002CF8C8 /* keyword_args.py */,
+				8DBDEB4817120966002CF8C8 /* courses.py */,
 			);
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		8D1A825017122765000DC8CD /* PythonProblems */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 8D1A825317122765000DC8CD /* Build configuration list for PBXLegacyTarget "PythonProblems" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/local/bin/python3;
+			dependencies = (
+			);
+			name = PythonProblems;
+			passBuildSettingsInEnvironment = 1;
+			productName = PythonProblems;
+		};
+/* End PBXLegacyTarget section */
 
 /* Begin PBXProject section */
 		8D87B0C916CEC0FB0009C2FF /* Project object */ = {
@@ -101,11 +121,77 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				8D1A825017122765000DC8CD /* PythonProblems */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin XCBuildConfiguration section */
+		8D1A825117122765000DC8CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8D1A825217122765000DC8CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
 		8D87B0CD16CEC0FB0009C2FF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -121,6 +207,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		8D1A825317122765000DC8CD /* Build configuration list for PBXLegacyTarget "PythonProblems" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D1A825117122765000DC8CD /* Debug */,
+				8D1A825217122765000DC8CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		8D87B0CC16CEC0FB0009C2FF /* Build configuration list for PBXProject "PythonProblems" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
