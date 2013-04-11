@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXFileReference section */
+		8D1A8254171239D4000DC8CD /* switch.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = switch.py; sourceTree = "<group>"; };
+		8D1A825517162FF4000DC8CD /* cplx.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = cplx.py; sourceTree = "<group>"; };
+		8D1A825617163042000DC8CD /* cplx_new.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = cplx_new.py; sourceTree = "<group>"; };
+		8D1A8257171635DC000DC8CD /* doggies.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = doggies.py; sourceTree = "<group>"; };
+		8D1A825817163CE6000DC8CD /* nested.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = nested.py; sourceTree = "<group>"; };
+		8D1A825917163EB2000DC8CD /* nested_new.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = nested_new.py; sourceTree = "<group>"; };
+		8D1A825A1716412F000DC8CD /* exceptions.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = exceptions.py; sourceTree = "<group>"; };
+		8D1A825B17166490000DC8CD /* divider.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = divider.py; sourceTree = "<group>"; };
+		8D1A825C17166EEF000DC8CD /* testable.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = testable.py; sourceTree = "<group>"; };
+		8D1A825D17167115000DC8CD /* refactoring_oportunity.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = refactoring_oportunity.py; sourceTree = "<group>"; };
+		8D1A825E1716717C000DC8CD /* refactor.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = refactor.py; sourceTree = "<group>"; };
 		8D87B0CF16CEC15A0009C2FF /* guessing.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = guessing.py; sourceTree = "<group>"; };
 		8D87B0D116CEC7870009C2FF /* leapyear.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = leapyear.py; sourceTree = "<group>"; };
 		8D87B0D216CEE1650009C2FF /* interestcalc.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = interestcalc.py; sourceTree = "<group>"; };
@@ -83,6 +94,17 @@
 				8D9CAAD616E96A2B002B9B1C /* tests.py */,
 				8DBDEB4717120564002CF8C8 /* keyword_args.py */,
 				8DBDEB4817120966002CF8C8 /* courses.py */,
+				8D1A825B17166490000DC8CD /* divider.py */,
+				8D1A8254171239D4000DC8CD /* switch.py */,
+				8D1A825517162FF4000DC8CD /* cplx.py */,
+				8D1A825617163042000DC8CD /* cplx_new.py */,
+				8D1A8257171635DC000DC8CD /* doggies.py */,
+				8D1A825E1716717C000DC8CD /* refactor.py */,
+				8D1A825817163CE6000DC8CD /* nested.py */,
+				8D1A825D17167115000DC8CD /* refactoring_oportunity.py */,
+				8D1A825917163EB2000DC8CD /* nested_new.py */,
+				8D1A825C17166EEF000DC8CD /* testable.py */,
+				8D1A825A1716412F000DC8CD /* exceptions.py */,
 			);
 			sourceTree = "<group>";
 		};
