@@ -18,6 +18,8 @@
 		8D1A825C17166EEF000DC8CD /* testable.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = testable.py; sourceTree = "<group>"; };
 		8D1A825D17167115000DC8CD /* refactoring_oportunity.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = refactoring_oportunity.py; sourceTree = "<group>"; };
 		8D1A825E1716717C000DC8CD /* refactor.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = refactor.py; sourceTree = "<group>"; };
+		8D1A825F1717A172000DC8CD /* refactor_new.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = refactor_new.py; sourceTree = "<group>"; };
+		8D1A82601717A180000DC8CD /* refactory.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = refactory.py; sourceTree = "<group>"; };
 		8D87B0CF16CEC15A0009C2FF /* guessing.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = guessing.py; sourceTree = "<group>"; };
 		8D87B0D116CEC7870009C2FF /* leapyear.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = leapyear.py; sourceTree = "<group>"; };
 		8D87B0D216CEE1650009C2FF /* interestcalc.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = interestcalc.py; sourceTree = "<group>"; };
@@ -100,6 +102,8 @@
 				8D1A825617163042000DC8CD /* cplx_new.py */,
 				8D1A8257171635DC000DC8CD /* doggies.py */,
 				8D1A825E1716717C000DC8CD /* refactor.py */,
+				8D1A82601717A180000DC8CD /* refactory.py */,
+				8D1A825F1717A172000DC8CD /* refactor_new.py */,
 				8D1A825817163CE6000DC8CD /* nested.py */,
 				8D1A825D17167115000DC8CD /* refactoring_oportunity.py */,
 				8D1A825917163EB2000DC8CD /* nested_new.py */,
